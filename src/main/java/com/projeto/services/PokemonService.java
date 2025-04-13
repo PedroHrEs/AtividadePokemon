@@ -32,7 +32,7 @@ public class PokemonService {
         Optional<Pokemon> obj = pokemonRepo.findByCpfPokemon(cpfPokemon);
         return obj.orElseThrow(() -> new ObjectNotFoundException("Pokemon não encontrado cpf:"+cpfPokemon));
     }
-    public Pokemon create( PokemonDTO dto){
+    public Pokemon create(PokemonDTO dto){
         dto.setId(null);
         validaPokemon(dto);
         Pokemon obj = new Pokemon(dto);
@@ -40,6 +40,7 @@ public class PokemonService {
     }
     public Pokemon update(Long id, PokemonDTO objDto){
         objDto.setId(id);
+        validaPokemon(objDto);
         Pokemon oldObj = findById(id);
         oldObj = new Pokemon(objDto);
         return pokemonRepo.save(oldObj);
