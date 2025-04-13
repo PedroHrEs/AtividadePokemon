@@ -1,0 +1,644 @@
+2025-04-13T15:45:34.499-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] p.PedrohenriqueestevesPokemonApplication : Starting PedrohenriqueestevesPokemonApplication using Java 17.0.14 with PID 688 (D:\ProjetosJavaSpring\pedrohenriqueesteves_pokemon\target\classes started by Pedro in D:\ProjetosJavaSpring\pedrohenriqueesteves_pokemon)
+2025-04-13T15:45:34.502-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] p.PedrohenriqueestevesPokemonApplication : The following 1 profile is active: "dev"
+2025-04-13T15:45:34.551-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-13T15:45:34.551-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-13T15:45:34.937-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-13T15:45:34.974-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2025-04-13T15:45:35.579-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-13T15:45:35.590-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-13T15:45:35.590-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-13T15:45:35.631-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-13T15:45:35.631-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1079 ms
+2025-04-13T15:45:35.749-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-13T15:45:35.796-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-13T15:45:35.824-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-13T15:45:35.880-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@51c76938
+2025-04-13T15:45:35.880-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@51c76938
+2025-04-13T15:45:35.880-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@51c76938
+2025-04-13T15:45:35.880-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@651595e2
+2025-04-13T15:45:35.880-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@651595e2
+2025-04-13T15:45:35.880-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.BasicTypeReference@79f9cd9f
+2025-04-13T15:45:35.881-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@79f9cd9f
+2025-04-13T15:45:35.881-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@36a584a0
+2025-04-13T15:45:35.881-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@36a584a0
+2025-04-13T15:45:35.881-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@5cc1b5e5
+2025-04-13T15:45:35.881-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@5cc1b5e5
+2025-04-13T15:45:35.881-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@5cc1b5e5
+2025-04-13T15:45:35.881-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BasicTypeReference@15b2811a
+2025-04-13T15:45:35.881-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@15b2811a
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BasicTypeReference@15b2811a
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@69b5d719
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@69b5d719
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.BasicTypeReference@680e2164
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BasicTypeReference@4ba53760
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@4ba53760
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@225d9cd7
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@65179a9a
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@7c8b825d
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@7c8b825d
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@7c8b825d
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.BasicTypeReference@1ef7a49b
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.BasicTypeReference@1ef7a49b
+2025-04-13T15:45:35.882-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@1ef7a49b
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@500238b6
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@500238b6
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@500238b6
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@998bb66
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@998bb66
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@998bb66
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@29214962
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@29214962
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@29214962
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@a51e3a1
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@a51e3a1
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@4bd7bdd5
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@4bd7bdd5
+2025-04-13T15:45:35.883-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.BasicTypeReference@7586c42
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.BasicTypeReference@7586c42
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@7586c42
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@24115f92
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.BasicTypeReference@2158fc5a
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@2158fc5a
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.BasicTypeReference@5717d4b1
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.BasicTypeReference@13e9986d
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.BasicTypeReference@13e9986d
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.BasicTypeReference@13e9986d
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@3daaa84d
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.BasicTypeReference@5bf6398e
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.BasicTypeReference@32adcc1d
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.BasicTypeReference@6d5810d5
+2025-04-13T15:45:35.884-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@6d5810d5
+2025-04-13T15:45:35.885-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.BasicTypeReference@5d825f3
+2025-04-13T15:45:35.885-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@5d825f3
+2025-04-13T15:45:35.885-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@6f88468f
+2025-04-13T15:45:35.885-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@3319b247
+2025-04-13T15:45:35.885-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@1eeac249
+2025-04-13T15:45:35.885-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@5a599bda
+2025-04-13T15:45:35.885-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@77480220
+2025-04-13T15:45:35.885-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@9bd0d04
+2025-04-13T15:45:35.885-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.BasicTypeReference@418d7ef0
+2025-04-13T15:45:35.885-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@418d7ef0
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@571caa50
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@571caa50
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@6072eb91
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@6072eb91
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@1460fb6
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@1460fb6
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@2b968b90
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@2b968b90
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@19eafa98
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@6eb3a457
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@5fb93d88
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@5fb93d88
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@406ce7e4
+2025-04-13T15:45:35.886-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@e9cfb4b
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@7d7e77d3
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@6b3d5089
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@6b3d5089
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@4cc9c9cd
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@256635bc
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.BasicTypeReference@2b281e2c
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@2b281e2c
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.BasicTypeReference@2a10aad8
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@2a10aad8
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@281589f6
+2025-04-13T15:45:35.887-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@281589f6
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@281589f6
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.BasicTypeReference@3cca829d
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@3cca829d
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@3cca829d
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@57f83256
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@7811141b
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration instant -> org.hibernate.type.BasicTypeReference@7c4f68d6
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@7c4f68d6
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid -> org.hibernate.type.BasicTypeReference@1479c3a8
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@1479c3a8
+2025-04-13T15:45:35.888-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@1479c3a8
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@28529f3
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@72444474
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.BasicTypeReference@75ca8b32
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@75ca8b32
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.BasicTypeReference@2f7462a0
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Currency -> org.hibernate.type.BasicTypeReference@2f7462a0
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@2f7462a0
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.BasicTypeReference@4150c0c
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@4150c0c
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.BasicTypeReference@54a28f1e
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@54a28f1e
+2025-04-13T15:45:35.889-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.BasicTypeReference@75101da3
+2025-04-13T15:45:35.890-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@75101da3
+2025-04-13T15:45:35.890-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@797d00c3
+2025-04-13T15:45:35.890-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@797d00c3
+2025-04-13T15:45:35.890-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.BasicTypeReference@55a4068c
+2025-04-13T15:45:35.890-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@55a4068c
+2025-04-13T15:45:35.890-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration vector -> org.hibernate.type.BasicTypeReference@15bea959
+2025-04-13T15:45:35.890-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float_vector -> org.hibernate.type.BasicTypeReference@60364348
+2025-04-13T15:45:35.890-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double_vector -> org.hibernate.type.BasicTypeReference@715c3c95
+2025-04-13T15:45:35.890-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte_vector -> org.hibernate.type.BasicTypeReference@4b9d454
+2025-04-13T15:45:35.890-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.BasicTypeReference@642d51fb
+2025-04-13T15:45:35.894-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.JavaObjectType@2fe589c
+2025-04-13T15:45:35.894-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@2fe589c
+2025-04-13T15:45:35.894-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration null -> org.hibernate.type.NullType@d313277
+2025-04-13T15:45:35.895-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@5ebaeab4
+2025-04-13T15:45:35.895-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@454d27e9
+2025-04-13T15:45:35.895-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@1fcfac5f
+2025-04-13T15:45:35.895-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@1be9875b
+2025-04-13T15:45:35.895-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@128f31d8
+2025-04-13T15:45:35.895-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@3ed12e0f
+2025-04-13T15:45:35.895-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@5c1ed0de
+2025-04-13T15:45:35.895-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@b1a5759
+2025-04-13T15:45:36.030-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-13T15:45:36.051-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-13T15:45:36.209-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e4d88db
+2025-04-13T15:45:36.210-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-13T15:45:36.267-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-13T15:45:36.274-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3286ebe3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@693680ff)
+2025-04-13T15:45:36.275-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3cb24974) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6249ea28)
+2025-04-13T15:45:36.277-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(2004, BlobTypeDescriptor(BLOB_BINDING)) replaced previous registration(BlobTypeDescriptor(DEFAULT))
+2025-04-13T15:45:36.277-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(2005, ClobTypeDescriptor(CLOB_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-04-13T15:45:36.285-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration JAVA_OBJECT -> org.hibernate.type.JavaObjectType@5541c3fd
+2025-04-13T15:45:36.285-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@5541c3fd
+2025-04-13T15:45:36.285-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Type registration key [java.lang.Object] overrode previous entry : `org.hibernate.type.JavaObjectType@2fe589c`
+2025-04-13T15:45:36.290-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,3015)
+2025-04-13T15:45:36.290-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> basicType@1(java.time.Duration,3015)
+2025-04-13T15:45:36.290-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> basicType@1(java.time.Duration,3015)
+2025-04-13T15:45:36.293-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.OffsetDateTimeType -> basicType@2(java.time.OffsetDateTime,3003)
+2025-04-13T15:45:36.293-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2025-04-13T15:45:36.293-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2025-04-13T15:45:36.293-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.ZonedDateTimeType -> basicType@3(java.time.ZonedDateTime,3003)
+2025-04-13T15:45:36.293-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2025-04-13T15:45:36.293-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2025-04-13T15:45:36.294-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.OffsetTimeType -> basicType@4(java.time.OffsetTime,3007)
+2025-04-13T15:45:36.294-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2025-04-13T15:45:36.294-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2025-04-13T15:45:36.295-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7f042e08] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@458708d]
+2025-04-13T15:45:36.863-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-13T15:45:36.863-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7f042e08] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@2a783776]
+2025-04-13T15:45:36.873-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+2025-04-13T15:45:36.874-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists pokemon cascade
+2025-04-13T15:45:36.875-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_pokemon
+2025-04-13T15:45:36.878-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_pokemon start with 1 increment by 50
+2025-04-13T15:45:36.901-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    create table pokemon (
+        ataque integer not null,
+        data_captura date,
+        defesa integer not null,
+        nivel_pokemon smallint check (nivel_pokemon between 0 and 3),
+        pontos_de_vida integer not null,
+        tipo_pokemon smallint check (tipo_pokemon between 0 and 16),
+        velocidade integer not null,
+        id bigint not null,
+        cpf_pokemon varchar(255) unique,
+        nome varchar(255) not null,
+        primary key (id)
+    )
+2025-04-13T15:45:36.928-03:00 TRACE 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@2a783776] for TypeConfiguration
+2025-04-13T15:45:36.928-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-13T15:45:37.165-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_pokemon')
+2025-04-13T15:45:37.202-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pokemon
+        (ataque, cpf_pokemon, data_captura, defesa, nivel_pokemon, nome, pontos_de_vida, tipo_pokemon, velocidade, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-04-13T15:45:37.251-03:00  WARN 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-13T15:45:37.450-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pokemondb'
+2025-04-13T15:45:37.494-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-13T15:45:37.519-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-13T15:45:37.528-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [restartedMain] p.PedrohenriqueestevesPokemonApplication : Started PedrohenriqueestevesPokemonApplication in 3.377 seconds (process running for 3.735)
+2025-04-13T15:45:45.556-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-13T15:45:45.556-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-13T15:45:45.557-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-13T15:45:45.600-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.ataque,
+        p1_0.cpf_pokemon,
+        p1_0.data_captura,
+        p1_0.defesa,
+        p1_0.nivel_pokemon,
+        p1_0.nome,
+        p1_0.pontos_de_vida,
+        p1_0.tipo_pokemon,
+        p1_0.velocidade 
+    from
+        pokemon p1_0 
+    where
+        p1_0.id=?
+2025-04-13T15:45:51.042-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.ataque,
+        p1_0.cpf_pokemon,
+        p1_0.data_captura,
+        p1_0.defesa,
+        p1_0.nivel_pokemon,
+        p1_0.nome,
+        p1_0.pontos_de_vida,
+        p1_0.tipo_pokemon,
+        p1_0.velocidade 
+    from
+        pokemon p1_0 
+    where
+        p1_0.id=?
+2025-04-13T15:45:51.049-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    update
+        pokemon 
+    set
+        ataque=?,
+        cpf_pokemon=?,
+        data_captura=?,
+        defesa=?,
+        nivel_pokemon=?,
+        nome=?,
+        pontos_de_vida=?,
+        tipo_pokemon=?,
+        velocidade=? 
+    where
+        id=?
+2025-04-13T15:45:56.609-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.ataque,
+        p1_0.cpf_pokemon,
+        p1_0.data_captura,
+        p1_0.defesa,
+        p1_0.nivel_pokemon,
+        p1_0.nome,
+        p1_0.pontos_de_vida,
+        p1_0.tipo_pokemon,
+        p1_0.velocidade 
+    from
+        pokemon p1_0 
+    where
+        p1_0.id=?
+2025-04-13T15:48:33.412-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-13T15:48:33.425-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-13T15:48:33.428-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-13T15:48:33.429-03:00 TRACE 688 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@2a783776] for TypeConfiguration
+2025-04-13T15:48:33.429-03:00 DEBUG 688 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@32be9b8f] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@2a783776]
+2025-04-13T15:48:33.431-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-13T15:48:33.434-03:00  INFO 688 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-13T15:49:01.927-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] p.PedrohenriqueestevesPokemonApplication : Starting PedrohenriqueestevesPokemonApplication using Java 17.0.14 with PID 15268 (D:\ProjetosJavaSpring\pedrohenriqueesteves_pokemon\target\classes started by Pedro in D:\ProjetosJavaSpring\pedrohenriqueesteves_pokemon)
+2025-04-13T15:49:01.929-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] p.PedrohenriqueestevesPokemonApplication : The following 1 profile is active: "dev"
+2025-04-13T15:49:01.975-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-13T15:49:01.975-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-13T15:49:02.351-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-13T15:49:02.384-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2025-04-13T15:49:03.025-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-13T15:49:03.040-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-13T15:49:03.041-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-13T15:49:03.091-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-13T15:49:03.092-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1117 ms
+2025-04-13T15:49:03.220-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-13T15:49:03.260-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-13T15:49:03.290-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-13T15:49:03.346-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@29bf6d32
+2025-04-13T15:49:03.346-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@29bf6d32
+2025-04-13T15:49:03.346-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@29bf6d32
+2025-04-13T15:49:03.346-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@72c96511
+2025-04-13T15:49:03.346-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@72c96511
+2025-04-13T15:49:03.346-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.BasicTypeReference@16394c73
+2025-04-13T15:49:03.346-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@16394c73
+2025-04-13T15:49:03.346-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@663040f1
+2025-04-13T15:49:03.347-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@663040f1
+2025-04-13T15:49:03.347-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@34b477f8
+2025-04-13T15:49:03.347-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@34b477f8
+2025-04-13T15:49:03.347-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@34b477f8
+2025-04-13T15:49:03.347-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BasicTypeReference@d6c6d92
+2025-04-13T15:49:03.347-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@d6c6d92
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BasicTypeReference@d6c6d92
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@2225bd64
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@2225bd64
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.BasicTypeReference@4ccb544f
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BasicTypeReference@4ab3917c
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@4ab3917c
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@374b7ad1
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@380a3fc1
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@2e757da3
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@2e757da3
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@2e757da3
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.BasicTypeReference@781b3160
+2025-04-13T15:49:03.348-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.BasicTypeReference@781b3160
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@781b3160
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@146a5140
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@146a5140
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@146a5140
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@7df7803b
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@7df7803b
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@7df7803b
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@78ea6243
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@78ea6243
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@78ea6243
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@59dbcc0f
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@59dbcc0f
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@1ffd6625
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@1ffd6625
+2025-04-13T15:49:03.349-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.BasicTypeReference@5e4acbb9
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.BasicTypeReference@5e4acbb9
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@5e4acbb9
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@75994249
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.BasicTypeReference@72254341
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@72254341
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.BasicTypeReference@61dcf6e
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.BasicTypeReference@e02cb17
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.BasicTypeReference@e02cb17
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.BasicTypeReference@e02cb17
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@31365b94
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.BasicTypeReference@695129b8
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.BasicTypeReference@15ffd43
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.BasicTypeReference@199dd40c
+2025-04-13T15:49:03.350-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@199dd40c
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.BasicTypeReference@1af4d650
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@1af4d650
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@7a08205f
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@4436fb8
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@7309e688
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@4ff3f8ef
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@74423396
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@6b63ac09
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.BasicTypeReference@57623a4b
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@57623a4b
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@70684c8
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@70684c8
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@62bdd93d
+2025-04-13T15:49:03.351-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@62bdd93d
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@14c83287
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@14c83287
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@523ee237
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@523ee237
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@612d0c7c
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@6dd54555
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@38dc0e62
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@38dc0e62
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@1d566c14
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@1411cd2e
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@53a9dd14
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@b5e661d
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@b5e661d
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@25c69dae
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@3f244c85
+2025-04-13T15:49:03.352-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.BasicTypeReference@22787708
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@22787708
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.BasicTypeReference@5aee93d4
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@5aee93d4
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@4b544eca
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@4b544eca
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@4b544eca
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.BasicTypeReference@56096341
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@56096341
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@56096341
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@37289ebf
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@19f6cbbd
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration instant -> org.hibernate.type.BasicTypeReference@703df457
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@703df457
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid -> org.hibernate.type.BasicTypeReference@6d33927a
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@6d33927a
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@6d33927a
+2025-04-13T15:49:03.353-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@1e1d3405
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@3119bf58
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.BasicTypeReference@2e997a60
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@2e997a60
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.BasicTypeReference@5f488d8b
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Currency -> org.hibernate.type.BasicTypeReference@5f488d8b
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@5f488d8b
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.BasicTypeReference@2802377b
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@2802377b
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.BasicTypeReference@549dae5c
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@549dae5c
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.BasicTypeReference@31b294d5
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@31b294d5
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@2a0d63bd
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@2a0d63bd
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.BasicTypeReference@138d2068
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@138d2068
+2025-04-13T15:49:03.354-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration vector -> org.hibernate.type.BasicTypeReference@2adb930b
+2025-04-13T15:49:03.355-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float_vector -> org.hibernate.type.BasicTypeReference@f6abeb9
+2025-04-13T15:49:03.355-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double_vector -> org.hibernate.type.BasicTypeReference@4ebb3462
+2025-04-13T15:49:03.355-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte_vector -> org.hibernate.type.BasicTypeReference@34cfd3bd
+2025-04-13T15:49:03.355-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.BasicTypeReference@427a4de4
+2025-04-13T15:49:03.359-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.JavaObjectType@2072630f
+2025-04-13T15:49:03.360-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@2072630f
+2025-04-13T15:49:03.360-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration null -> org.hibernate.type.NullType@32b3062f
+2025-04-13T15:49:03.360-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@54276c4b
+2025-04-13T15:49:03.360-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@2fc0624b
+2025-04-13T15:49:03.361-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@531a12fa
+2025-04-13T15:49:03.361-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@79b2f4c8
+2025-04-13T15:49:03.361-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@16989a81
+2025-04-13T15:49:03.361-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@3ae66023
+2025-04-13T15:49:03.361-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@39682847
+2025-04-13T15:49:03.361-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@57128f16
+2025-04-13T15:49:03.499-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-13T15:49:03.522-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-13T15:49:03.666-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59dbcf69
+2025-04-13T15:49:03.668-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-13T15:49:03.724-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-13T15:49:03.730-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@25bd0c03) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@38d47e2b)
+2025-04-13T15:49:03.730-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@27033e18) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7633b6e3)
+2025-04-13T15:49:03.732-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(2004, BlobTypeDescriptor(BLOB_BINDING)) replaced previous registration(BlobTypeDescriptor(DEFAULT))
+2025-04-13T15:49:03.732-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(2005, ClobTypeDescriptor(CLOB_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-04-13T15:49:03.738-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration JAVA_OBJECT -> org.hibernate.type.JavaObjectType@176bfc22
+2025-04-13T15:49:03.738-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@176bfc22
+2025-04-13T15:49:03.738-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Type registration key [java.lang.Object] overrode previous entry : `org.hibernate.type.JavaObjectType@2072630f`
+2025-04-13T15:49:03.742-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,3015)
+2025-04-13T15:49:03.742-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> basicType@1(java.time.Duration,3015)
+2025-04-13T15:49:03.742-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> basicType@1(java.time.Duration,3015)
+2025-04-13T15:49:03.744-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.OffsetDateTimeType -> basicType@2(java.time.OffsetDateTime,3003)
+2025-04-13T15:49:03.745-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2025-04-13T15:49:03.745-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2025-04-13T15:49:03.745-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.ZonedDateTimeType -> basicType@3(java.time.ZonedDateTime,3003)
+2025-04-13T15:49:03.745-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2025-04-13T15:49:03.745-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2025-04-13T15:49:03.745-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.OffsetTimeType -> basicType@4(java.time.OffsetTime,3007)
+2025-04-13T15:49:03.745-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2025-04-13T15:49:03.746-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2025-04-13T15:49:03.747-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1386cd89] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@2c31edc4]
+2025-04-13T15:49:04.308-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-13T15:49:04.308-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1386cd89] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@3ad6ac19]
+2025-04-13T15:49:04.318-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    set client_min_messages = WARNING
+2025-04-13T15:49:04.319-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists pokemon cascade
+2025-04-13T15:49:04.323-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_pokemon
+2025-04-13T15:49:04.326-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_pokemon start with 1 increment by 50
+2025-04-13T15:49:04.331-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    create table pokemon (
+        ataque integer not null,
+        data_captura date,
+        defesa integer not null,
+        nivel_pokemon smallint check (nivel_pokemon between 0 and 3),
+        pontos_de_vida integer not null,
+        tipo_pokemon smallint check (tipo_pokemon between 0 and 16),
+        velocidade integer not null,
+        id bigint not null,
+        cpf_pokemon varchar(255) unique,
+        nome varchar(255) not null,
+        primary key (id)
+    )
+2025-04-13T15:49:04.338-03:00 TRACE 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@3ad6ac19] for TypeConfiguration
+2025-04-13T15:49:04.338-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-13T15:49:04.596-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_pokemon')
+2025-04-13T15:49:04.632-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pokemon
+        (ataque, cpf_pokemon, data_captura, defesa, nivel_pokemon, nome, pontos_de_vida, tipo_pokemon, velocidade, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-04-13T15:49:04.680-03:00  WARN 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-13T15:49:04.903-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pokemondb'
+2025-04-13T15:49:04.951-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-13T15:49:04.978-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-13T15:49:04.986-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [restartedMain] p.PedrohenriqueestevesPokemonApplication : Started PedrohenriqueestevesPokemonApplication in 3.411 seconds (process running for 3.746)
+2025-04-13T15:49:23.208-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-13T15:49:23.208-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-13T15:49:23.209-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-13T15:49:23.253-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.ataque,
+        p1_0.cpf_pokemon,
+        p1_0.data_captura,
+        p1_0.defesa,
+        p1_0.nivel_pokemon,
+        p1_0.nome,
+        p1_0.pontos_de_vida,
+        p1_0.tipo_pokemon,
+        p1_0.velocidade 
+    from
+        pokemon p1_0 
+    where
+        p1_0.id=?
+2025-04-13T15:49:26.869-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.ataque,
+        p1_0.cpf_pokemon,
+        p1_0.data_captura,
+        p1_0.defesa,
+        p1_0.nivel_pokemon,
+        p1_0.nome,
+        p1_0.pontos_de_vida,
+        p1_0.tipo_pokemon,
+        p1_0.velocidade 
+    from
+        pokemon p1_0 
+    where
+        p1_0.id=?
+2025-04-13T15:49:26.876-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    update
+        pokemon 
+    set
+        ataque=?,
+        cpf_pokemon=?,
+        data_captura=?,
+        defesa=?,
+        nivel_pokemon=?,
+        nome=?,
+        pontos_de_vida=?,
+        tipo_pokemon=?,
+        velocidade=? 
+    where
+        id=?
+2025-04-13T15:49:46.240-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.ataque,
+        p1_0.cpf_pokemon,
+        p1_0.data_captura,
+        p1_0.defesa,
+        p1_0.nivel_pokemon,
+        p1_0.nome,
+        p1_0.pontos_de_vida,
+        p1_0.tipo_pokemon,
+        p1_0.velocidade 
+    from
+        pokemon p1_0 
+    where
+        p1_0.id=?
+2025-04-13T15:49:46.246-03:00  WARN 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.projeto.services.exceptions.ObjectNotFoundException: Pokemon não encontrado! id: 2]
+2025-04-13T15:49:52.522-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.ataque,
+        p1_0.cpf_pokemon,
+        p1_0.data_captura,
+        p1_0.defesa,
+        p1_0.nivel_pokemon,
+        p1_0.nome,
+        p1_0.pontos_de_vida,
+        p1_0.tipo_pokemon,
+        p1_0.velocidade 
+    from
+        pokemon p1_0 
+    where
+        p1_0.id=?
+2025-04-13T15:49:52.528-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    delete 
+    from
+        pokemon 
+    where
+        id=?
+2025-04-13T15:49:55.638-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.ataque,
+        p1_0.cpf_pokemon,
+        p1_0.data_captura,
+        p1_0.defesa,
+        p1_0.nivel_pokemon,
+        p1_0.nome,
+        p1_0.pontos_de_vida,
+        p1_0.tipo_pokemon,
+        p1_0.velocidade 
+    from
+        pokemon p1_0 
+    where
+        p1_0.id=?
+2025-04-13T15:49:55.640-03:00  WARN 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.projeto.services.exceptions.ObjectNotFoundException: Pokemon não encontrado! id: 1]
+2025-04-13T15:49:59.538-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.ataque,
+        p1_0.cpf_pokemon,
+        p1_0.data_captura,
+        p1_0.defesa,
+        p1_0.nivel_pokemon,
+        p1_0.nome,
+        p1_0.pontos_de_vida,
+        p1_0.tipo_pokemon,
+        p1_0.velocidade 
+    from
+        pokemon p1_0
+2025-04-13T15:50:01.639-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-13T15:50:01.651-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-13T15:50:01.654-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-13T15:50:01.654-03:00 TRACE 15268 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@3ad6ac19] for TypeConfiguration
+2025-04-13T15:50:01.654-03:00 DEBUG 15268 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@43a85e82] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@3ad6ac19]
+2025-04-13T15:50:01.656-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-13T15:50:01.659-03:00  INFO 15268 --- [pedrohenriqueesteves_pokemon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
